@@ -1,0 +1,640 @@
+{
+  "Version": 1,
+  "Hash": "XzMMLz3Ch7Gyv3PPhGixlXF+O2y/WyiCk9a8niT0n2g=",
+  "Source": "HospitalManagementServer",
+  "BasePath": "_content/HospitalManagementServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HospitalManagementServer\\wwwroot",
+      "Source": "HospitalManagementServer",
+      "ContentRoot": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\",
+      "BasePath": "_content/HospitalManagementServer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HospitalManagementServer.styles.css",
+      "SourceId": "HospitalManagementServer",
+      "SourceType": "Computed",
+      "ContentRoot": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/HospitalManagementServer",
+      "RelativePath": "HospitalManagementServer#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "qw39nt055y",
+      "Integrity": "CsfMx28u0PRxVJzGp7R6wGkOAGO5h/fJbgjwBL/YThE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HospitalManagementServer.styles.css"
+    },
+    {
+      "Identity": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HospitalManagementServer.bundle.scp.css",
+      "SourceId": "HospitalManagementServer",
+      "SourceType": "Computed",
+      "ContentRoot": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/HospitalManagementServer",
+      "RelativePath": "HospitalManagementServer#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "qw39nt055y",
+      "Integrity": "CsfMx28u0PRxVJzGp7R6wGkOAGO5h/fJbgjwBL/YThE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HospitalManagementServer.bundle.scp.css"
+    },
+    {
+      "Identity": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\app.css",
+      "SourceId": "HospitalManagementServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\",
+      "BasePath": "_content/HospitalManagementServer",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "da95v2qkru",
+      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "HospitalManagementServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\",
+      "BasePath": "_content/HospitalManagementServer",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "HospitalManagementServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\",
+      "BasePath": "_content/HospitalManagementServer",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\favicon.png",
+      "SourceId": "HospitalManagementServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\",
+      "BasePath": "_content/HospitalManagementServer",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 10:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "app.da95v2qkru.css",
+      "AssetFile": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 10:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "da95v2qkru"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 10:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 10:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 10:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 10:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 10:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Nov 2024 10:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "HospitalManagementServer.bundle.scp.css",
+      "AssetFile": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HospitalManagementServer.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CsfMx28u0PRxVJzGp7R6wGkOAGO5h/fJbgjwBL/YThE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Nov 2024 05:41:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CsfMx28u0PRxVJzGp7R6wGkOAGO5h/fJbgjwBL/YThE="
+        }
+      ]
+    },
+    {
+      "Route": "HospitalManagementServer.qw39nt055y.bundle.scp.css",
+      "AssetFile": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HospitalManagementServer.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CsfMx28u0PRxVJzGp7R6wGkOAGO5h/fJbgjwBL/YThE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Nov 2024 05:41:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qw39nt055y"
+        },
+        {
+          "Name": "label",
+          "Value": "HospitalManagementServer.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CsfMx28u0PRxVJzGp7R6wGkOAGO5h/fJbgjwBL/YThE="
+        }
+      ]
+    },
+    {
+      "Route": "HospitalManagementServer.qw39nt055y.styles.css",
+      "AssetFile": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HospitalManagementServer.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CsfMx28u0PRxVJzGp7R6wGkOAGO5h/fJbgjwBL/YThE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Nov 2024 05:41:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qw39nt055y"
+        },
+        {
+          "Name": "label",
+          "Value": "HospitalManagementServer.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CsfMx28u0PRxVJzGp7R6wGkOAGO5h/fJbgjwBL/YThE="
+        }
+      ]
+    },
+    {
+      "Route": "HospitalManagementServer.styles.css",
+      "AssetFile": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HospitalManagementServer.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5931"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CsfMx28u0PRxVJzGp7R6wGkOAGO5h/fJbgjwBL/YThE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 26 Nov 2024 05:41:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CsfMx28u0PRxVJzGp7R6wGkOAGO5h/fJbgjwBL/YThE="
+        }
+      ]
+    }
+  ]
+}

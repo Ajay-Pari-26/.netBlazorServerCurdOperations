@@ -1,0 +1,68 @@
+﻿@page "/doctors"
+@inject IDoctorService DoctorService
+@inject NavigationManager NavigationManager
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+
+
+
+<PageTitle>Doctors</PageTitle>
+
+<h3>Doctors</h3>
+
+@if (doctors == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Specialty</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var doctor in doctors)
+            {
+                <tr>
+                    <td>@doctor.Name</td>
+                    <td>@doctor.Specialty</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="@(() => EditDoctor(doctor.DoctorId))">Edit</button>
+                        <button class="btn btn-warning" @onclick="@(() => DeleteDoctor(doctor.DoctorId))">Delete</button>
+
+                        
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button class="btn btn-success" @onclick="AddDoctor">Add Doctor</button>
+}
+
+@code {
+    List<Doctor> doctors = new List<Doctor>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        doctors = await DoctorService.GetAllDoctorsAsync();
+    }
+
+     void AddDoctor()
+    {
+        NavigationManager.NavigateTo("/edit-doctor");
+    }
+
+     void EditDoctor(int id)
+    {
+        NavigationManager.NavigateTo($"/edit-doctor/{id}");
+    }
+
+     async Task DeleteDoctor(int id)
+    {
+        await DoctorService.DeleteDoctorAsync(id);
+        doctors = await DoctorService.GetAllDoctorsAsync();
+    }
+}

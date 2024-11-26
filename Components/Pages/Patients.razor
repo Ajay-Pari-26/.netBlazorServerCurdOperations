@@ -1,0 +1,76 @@
+﻿@page "/patients"
+@using HospitalManagementServer.Services
+@inject IPatientService PatientService
+@inject IDoctorService DoctorService
+@inject NavigationManager NavigationManager
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+
+
+<PageTitle>Patients</PageTitle>
+
+<h3>Patients</h3>
+
+@if (patients == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Diagnosis</th>
+                <th>Doctor</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var patient in patients)
+            {
+                <tr>
+                    <td>@patient.Name</td>
+                    <td>@patient.Age</td>
+                    <td>@patient.Diagnosis</td>
+                    <td>@patient.Doctor.Name</td>
+                    <td>
+                        @* <button class="btn btn-primary" @onclick="@(() => EditPatient(patient.PatientId))">Edit</button> *@
+                        @* <button class="btn btn-warning" @onclick="@(() => DeletePatient(patient.PatientId))">Delete</button> *@
+                        <button class="btn btn-primary" @onclick="() => EditPatient(patient.PatientId)">Edit</button> 
+                       <button class="btn btn-danger" @onclick="() => DeletePatient(patient.PatientId)">Delete</button> 
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button class="btn btn-success" @onclick="AddPatient">Add Patient</button>
+}
+
+@code {
+    List<Patient> patients = new List<Patient>();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        patients = await PatientService.GetAllPatientsAsync();
+    }
+
+    void AddPatient()
+    {
+        NavigationManager.NavigateTo("/edit-patient");
+    }
+ 
+
+    void EditPatient(int id)
+    {
+        NavigationManager.NavigateTo($"/edit-patient/{id}");
+    }
+
+    async Task DeletePatient(int id)
+    {
+        await PatientService.DeletePatientAsync(id);
+        patients = await PatientService.GetAllPatientsAsync();
+    }
+}

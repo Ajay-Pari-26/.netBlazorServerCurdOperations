@@ -1,0 +1,61 @@
+﻿@page "/edit-doctor"
+@page "/edit-doctor/{Id:int}"
+@inject IDoctorService DoctorService
+@inject NavigationManager NavigationManager
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+
+@if (Id is null)
+{
+    <PageTitle>Add a New Doctor</PageTitle>
+    <h3>Add a New Doctor</h3>
+}
+else
+{
+    <PageTitle>Edit "@CurrentDoctor.Name"</PageTitle>
+    <h3>Edit "@CurrentDoctor.Name"</h3>
+}
+
+<EditForm Model="CurrentDoctor" OnSubmit="HandleSubmit">
+    <div>
+        <label for="name">Name</label>
+        <InputText id="name" @bind-Value="CurrentDoctor.Name" class="form-control" />
+    </div>
+    <div>
+        <label for="specialty">Specialty</label>
+        <InputText id="specialty" @bind-Value="CurrentDoctor.Specialty" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+
+    public Doctor CurrentDoctor { get; set; } = new();
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Id is not null)
+        {
+            var doctor = await DoctorService.GetDoctorByIdAsync((int)Id);
+            if (doctor is not null)
+                CurrentDoctor = doctor;
+        }
+    }
+
+    async Task HandleSubmit()
+    {
+        if (Id is not null)
+        {
+            // Update
+            await DoctorService.UpdateDoctorAsync(CurrentDoctor, (int)Id);
+            NavigationManager.NavigateTo("/doctors");
+        }
+        else
+        {
+            // Add
+            await DoctorService.AddDoctorAsync(CurrentDoctor);
+            NavigationManager.NavigateTo("/doctors");
+        }
+    }
+}

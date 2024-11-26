@@ -1,0 +1,76 @@
+﻿@page "/edit-patient"
+@page "/edit-patient/{Id:int}"
+@inject IDoctorService DoctorService
+@inject IPatientService PatientService
+@inject NavigationManager NavigationManager
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+
+<PageTitle>@(Id is null ? "Add a Patient" : $"Edit {CurrentPatient.Name}")</PageTitle>
+
+<h3>@(Id is null ? "Add a New Patient" : $"Edit {CurrentPatient.Name}")</h3>
+
+<EditForm Model="CurrentPatient" OnSubmit="HandleSubmit">
+    <div>
+        <label for="name">Name</label>
+        <InputText id="name" @bind-Value="CurrentPatient.Name" class="form-control" />
+    </div>
+    <div>
+        <label for="age">Age</label>
+        <InputNumber id="age" @bind-Value="CurrentPatient.Age" class="form-control" />
+    </div>
+    <div>
+        <label for="diagnosis">Diagnosis</label>
+        <InputText id="diagnosis" @bind-Value="CurrentPatient.Diagnosis" class="form-control" />
+    </div>
+    <div>
+        <label for="doctor">Doctor</label>
+        <InputSelect id="doctor" @bind-Value="CurrentPatient.DoctorId" class="form-control">
+            <option value="" disabled>Select Doctor</option>
+            @foreach (var doctor in doctors)
+            {
+                <option value="@doctor.DoctorId">@doctor.Name</option>
+            }
+        </InputSelect>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+
+    public List<Doctor> doctors = new();
+    public Patient CurrentPatient { get; set; } = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        doctors = await DoctorService.GetAllDoctorsAsync();
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Id is not null)
+        {
+            var patient = await PatientService.GetPatientByIdAsync((int)Id);
+            if (patient != null)
+                CurrentPatient = patient;
+        }
+    }
+
+     async Task HandleSubmit()
+    {
+        if (Id is not null)
+        {
+            // await PatientService.UpdatePatientAsync(CurrentPatient, (int)Id);
+            // Update
+            await PatientService.UpdatePatientAsync(CurrentPatient, (int)Id);
+        }
+        else
+        {
+            await PatientService.AddPatientAsync(CurrentPatient);
+
+        }
+        NavigationManager.NavigateTo("/patients");
+
+    }
+}

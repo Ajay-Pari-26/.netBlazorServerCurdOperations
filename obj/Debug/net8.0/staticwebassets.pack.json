@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HospitalManagementServer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HospitalManagementServer.qw39nt055y.bundle.scp.css"
+    },
+    {
+      "Id": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\metrolabs services pvt ltd\\New folder\\donnet tasks\\HospitalManagementServer\\HospitalManagementServer\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HospitalManagementServer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HospitalManagementServer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HospitalManagementServer.props",
+      "PackagePath": "build\\HospitalManagementServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HospitalManagementServer.props",
+      "PackagePath": "buildMultiTargeting\\HospitalManagementServer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HospitalManagementServer.props",
+      "PackagePath": "buildTransitive\\HospitalManagementServer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
